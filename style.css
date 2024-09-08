@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3,minmax(0,1fr));;
+    gap: 10px;
+    margin: 100px 100px;
+
+}
+.c1{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 300px;
+}
+/* .c1{
+    display: flex;
+    position: absolute;
+    top: 0;
+} */
